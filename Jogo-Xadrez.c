@@ -10,11 +10,9 @@ void movimentoTorre(int casas){
     }
 }
 // Movimento Bispo:
-void movimentoBispo(int movBispo){
-    int movBispoDir = movBispo;
-    int movBispoCima = movBispo;
-    for(movBispoCima; movBispoCima > 0; movBispoCima--){
-        for(movBispoDir; movBispoDir > 0; movBispoDir--){
+void movimentoBispo(){
+    for(int bispo = 1; bispo <= 5; bispo++){
+        for(int bispo = 1; bispo <= 1; bispo++){
             printf("Direita\n");
         }
         printf("Cima\n");
